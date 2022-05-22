@@ -70,13 +70,9 @@ definition odd (n : ℕ) := ∃ (k : ℕ), n = 2 * k + 1
 * theorem `add_add_add_comm` (a b c d : G) : (a + b) + (c + d) = (a + c) + (b + d)
 * theorem `one_add_one_eq_two` : 1 + 1 = 2
 * theorem `mul_add` (a b c : G) : a * (b + c) = a * b + a * c
+* theorem `mul_add_one` (a b : G) : a * (b + 1) = a * b + a
 
 -/
-example (a b : ℝ) : 2 * a + 2 = 2 * (a + 1):=
-begin
-  show_term{ring},
-end
-
 
 example (n m : ℕ) (hyp_n : odd n) (hyp_m : odd m) : even (n + m) :=
 begin
@@ -87,7 +83,8 @@ begin
   rw add_add_add_comm,
   rw one_add_one_eq_two,
   rw ← mul_add,
-  sorry,
+  rw ← mul_add_one,
+  use (k + ℓ + 1),
 end
 
 
@@ -117,7 +114,17 @@ example [topological_space X] [topological_space Y] [topological_space Z]
 (f : X → Y) (g : Y → Z) (hyp_f : continuous f) (hyp_g : continuous g) :
 continuous (g ∘ f : X → Z) :=
 begin
-  sorry,
+  -- continuity,
+  -- exact continuous.comp hyp_g hyp_f,
+  rewrite continuous_def,
+  intros W hW,
+  let V := g⁻¹' W,
+  have hV : is_open V,
+  exact continuous_def.mp hyp_g W hW,
+  let U := f⁻¹' V,
+  have hU : is_open U,
+  exact continuous_def.mp hyp_f V hV,
+  exact hU,
 end
 
 
