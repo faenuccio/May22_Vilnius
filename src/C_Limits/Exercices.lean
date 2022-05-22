@@ -55,7 +55,6 @@ begin
   sorry,
 end
 
--- If aₙ → l and bₙ → m, and aₙ ≤ bₙ for all n, then l ≤ m
 example (a : ℕ → ℝ) (b : ℕ → ℝ)
   (l : ℝ) (m : ℝ) (hl : is_limit a l) (hm : is_limit b m) 
   (hle : ∀ n, a n ≤ b n) : l ≤ m :=
