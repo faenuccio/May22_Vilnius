@@ -31,7 +31,7 @@
 \title{Explaining Mathematical Proofs to Computers}
  \author[Filippo A. E. Nuccio]{Filippo Alberto Edoardo Nuccio\\ Mortarino Majno di Capriglio}
  \institute[ICJ - UJM]{Institut Camille Jordan\\
- Université de Lyon \& Université Jean Monnet de Saint-Étienne}
+Université Jean Monnet, Saint-Étienne (France)}
 \begin{document} 
 \frame{\titlepage}
 \begin{frame}
@@ -41,8 +41,8 @@
 %\begin{center}
 \begin{tabular}{ c c c  }
 \centering
-\includegraphics[scale=.45]{french_flag.png}&&\includegraphics[scale=.4]{union_jack.png}\\\\
-Un \textcolor{red}{assistant} de preuve&&A theorem \textcolor{Blue}{prover}\\
+\includegraphics[scale=.4]{union_jack.png}&&\includegraphics[scale=.45]{french_flag.png}\\\\
+A theorem \textcolor{Blue}{prover}&&Un \textcolor{red}{assistant} de preuve\\
     % &&\\
     % Un {\textcolor{blue}vérificateur} de preuves&&A formal proof checker
 \end{tabular}
@@ -76,11 +76,12 @@ Mathematica and related systems}, 1931.)
 \begin{frame}
 {\Large Liquid tensor experiment}
 \only<1>{\vspace{.5cm}}
-\emph{Posted\only<1-2>{\footnote{On the Xena Project blog, see \url{https://xenaproject.wordpress.com/2020/12/05/liquid-tensor-experiment/}}}, on December $5^\text{th}$, 2020}
+Posted\only<1-2>{\footnote{On the Xena Project blog, see \url{https://xenaproject.wordpress.com/2020/12/05/liquid-tensor-experiment/}}}, on December $5^\text{th}$, 2020
 \vspace{.5cm}
 
 \only<1-2>
-{I \textcolor{arancio}{[Peter Scholze]} want to propose a challenge: Formalise the proof of the following theorem.
+{\it
+I {\rm \textcolor{arancio}{[Peter Scholze]}} want to propose a challenge: Formalise the proof of the following theorem.
 
 \begin{theorem}[Clausen--S.] Let $0<p'<p\leq 1$ be real numbers, let $S$ be a profinite set, and let $V$ be a $p$-Banach space. Let $\mathcal M_{p'}(S)$ be the space of $p'$-measures on $S$. Then
 \[
@@ -95,6 +96,7 @@ Why do I want a formalization?}
 \pause
 \only<3>
 {\begin{itemize}
+\it
 \item \dots
 \item ~[\dots] In the end, we were able to get an argument pinned down on paper, but I think nobody else has dared to look at the details of this, and so I still have some small lingering doubts.
 \item ~[\dots] I think the theorem is of utmost foundational importance, so being 99.9\% sure is not enough.
@@ -103,11 +105,16 @@ Why do I want a formalization?}
 \end{itemize}}
 \end{frame}
 \begin{frame}
-{\Large Liquid tensor experiment}
-\emph{Posted\footnote{Voir \url{https://xenaproject.wordpress.com/2021/06/05/half-a-year-of-the-liquid-tensor-experiment-amazing-developments/}} on June 5, 2021}
+\frametitle{Liquid tensor experiment}
+Posted\footnote{See \url{https://xenaproject.wordpress.com/2021/06/05/half-a-year-of-the-liquid-tensor-experiment-amazing-developments/}} on June 5, 2021
 \vspace{.5cm}
 
-Exactly half a year ago I wrote the Liquid Tensor Experiment blog post, challenging the formalization of a difficult foundational theorem from my Analytic Geometry lecture notes on joint work with Dustin Clausen. While this challenge has not been completed yet, I am excited to announce that \textcolor{arancio}{the Experiment has verified the entire part of the argument that I was unsure about}. I find it absolutely insane that \textcolor{arancio}{interactive proof assistants are now at the level that within a very reasonable time span they can formally verify difficult original research}. Congratulations to everyone involved in the formalization!!
+\emph{Exactly half a year ago I wrote the Liquid Tensor Experiment blog post, challenging the formalization of a difficult foundational theorem from my Analytic Geometry lecture notes on joint work with Dustin Clausen. While this challenge has not been completed yet, I am excited to announce that \textcolor{arancio}{the Experiment has verified the entire part of the argument that I was unsure about}. I find it absolutely insane that \textcolor{arancio}{interactive proof assistants are now at the level that within a very reasonable time span they can formally verify difficult original research}. Congratulations to everyone involved in the formalization!!}
+\pause
+
+\vspace{.75cm}
+Let's \kern.5em
+\includegraphics[trim=0 9cm 0 0, scale=.025]{vscode_logo.png}\kern.5em and\kern.5em\includegraphics[trim=0 1.45cm 5cm 5cm, scale=.1]{lean_logo.png}\kern1.75em !
 \end{frame}
 
 \end{document}

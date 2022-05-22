@@ -97,8 +97,7 @@ end
 from which we deduce (= the system automatically constructs) the 
 ***Modus Ponens*** variant
 * `lemma` continuous_def.mp {f : α → β} : continuous f →
-  (∀s, is_open s → is_open (f ⁻¹' s))
--/
+  (∀s, is_open s → is_open (f ⁻¹' s)) -/
 
 variables {X Y Z : Type}
 
