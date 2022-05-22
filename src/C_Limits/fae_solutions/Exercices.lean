@@ -1,18 +1,17 @@
 import data.real.basic
 import tactic
-import C_Limits.fae_solutions.Course
-
-open vilnius
+-- import C_Limits.fae_solutions.Course
+-- open vilnius
 
 namespace vilnius
 
 local notation `|` x `|` := abs x
 
 
-/-- Recall the
-`definition` is_limit (a : ℕ → ℝ) (l : ℝ) : Prop :=
+-- Recall the
+definition is_limit (a : ℕ → ℝ) (l : ℝ) : Prop :=
 ∀ ε > 0, ∃ N, ∀ n ≥ N, | a n - l | < ε
--/
+
 
 example {a : ℕ → ℝ} {l : ℝ} (c : ℝ) (ha : is_limit a l) :
   is_limit (λ i, a i + c) (l + c) :=
@@ -42,14 +41,27 @@ begin
 end
 
 
--- Helpful things:
--- `abs_pos : 0 < |a| ↔ a ≠ 0`
--- `div_pos : 0 < a → 0 < b → 0 < a / b`
--- `abs_mul x y : |x * y| = |x| * |y|`
--- `lt_div_iff' : 0 < c → (a < b / c ↔ c * a < b)`
--- I typically find these things myself with a combination of
--- the "guess the name of the lemma" game (and ctrl-space).
+/- Helpful things:
+`abs_pos : 0 < |a| ↔ a ≠ 0`
+`div_pos : 0 < a → 0 < b → 0 < a / b`
+`abs_mul x y : |x * y| = |x| * |y|`
+`lt_div_iff' : 0 < c → (a < b / c ↔ c * a < b)`
+I typically find these things myself with a combination of
+the "guess the name of the lemma" game (and ctrl-space).
 
+
+Recall also that we have proved the-/
+
+theorem is_limit_add {a b : ℕ → ℝ} {l m : ℝ}
+  (h1 : is_limit a l) (h2 : is_limit b m) :
+  is_limit (a + b) (l + m) := sorry
+
+--as well as the 
+
+theorem is_limit_mul_const_left {a : ℕ → ℝ} {l c : ℝ} (h : is_limit a l) :
+  is_limit (λ n, c * (a n)) (c * l) := sorry
+
+-- And now, over to you!
 
 -- This should just be a couple of lines now.
 example (a : ℕ → ℝ) (b : ℕ → ℝ) (α β c d : ℝ) 
