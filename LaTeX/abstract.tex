@@ -1,0 +1,63 @@
+\documentclass[10pt,francais,a4paper]{amsart}
+%\documentclass[10pt,english,a4paper]{amsart}
+%%%%%%%%%%%%%%%%%%Typography packages
+\usepackage[sc]{mathpazo}
+\usepackage{eucal}
+\usepackage{mathrsfs}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref}
+\usepackage{indentfirst}
+\usepackage[left=2.5cm,right=2.5cm, bottom = 3cm]{geometry}
+\usepackage{xcolor}
+%%%%%%%%%%%%%%%%%%Editing Packages
+%\usepackage{cancel}
+%\usepackage{soul}
+%\usepackage{lineno}
+%\linenumbers
+%\usepackage[notref,notcite,color]{showkeys}
+%%%%%%%%%%%%%%%%%%Babel
+%\usepackage[french]{babel}
+%\frenchsetup{StandardItemLabels=true}
+\usepackage[english]{babel}
+%%%%%%%%%%%%%%%%%%Math packages
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage{mathtools}
+\usepackage{enumitem}
+\usepackage[all]{xy}
+%%%Other commands
+\newcommand{\Lean}{\texttt{LEAN-3}\kern.3em}
+\newcommand{\mathlib}{\texttt{mathlib}\kern.3em}
+%%%%
+\title{A crash course about formalizing mathematics in \Lean}
+\date{\today}
+\author[Filippo A.~E.~Nuccio]{Filippo A. E. Nuccio Mortarino Majno di Capriglio}
+\address{Univ Lyon, Université Jean Monnet Saint-Étienne \\ CNRS UMR 5208, Institut Camille Jordan \\ F-42023 Saint-Etienne \\ France}
+\email{filippo.nuccio@univ.st-etienne.fr}
+%\author{}
+%\adress{}
+%\email{}
+\begin{document}
+\maketitle
+\thispagestyle{empty}
+The aim of this series of lectures is to give a brief introduction to formalization of mathematics in \Lean, a \emph{proof assistant} which has recently proven to be particular well-suited for encoding modern mathematics.
+
+A proof assistant is a piece of software that can interpret formal statements %in the form of definitions and theorems, 
+and can assess the validity of the performed reasoning. Up until some years ago, the kind of mathematics that could possibly be taught to such a software was somewhat limited, and very far from modern research standards. This state of affair has been dramatically evolving in the last three-four years, and this reflects on a growing interest of the mathematical community
+about these interactions with computer science. To mention a few remarkable examples, one can quote the work~\cite{BuzComMas20} where the authors formalized the definition of \emph{perfectoid space}, a remarkably complicated notion introduced in 2012 by the Fields medallist P.~Scholze; or the formalization challenge~\cite{Sch20} in 2020 (and completed in half a year) by P.~Scholze himself, about some recent result on \emph{condensed mathematics}; or the invitation of K.~Buzzard as plenary speaker at the ICM~2022 for a talk about formalized mathematics.
+
+No previous knowledge of proof assistants is needed, nor assumed. For the three lectures on Tuesday, Wednesday and Thursday, it is required that you bring a laptop with an internet connection.
+\section*{Contents}
+\begin{description}
+\item [May~$23^\text{rd}$, 3.00--5.00 PM, room 103] This will be a colloquium-style talk, aimed at introducing what proof assistants are, focusing on the assistant \Lean. I will present some easy example and relate about Scholze's challenge. After a break, in the final part I will informally introduce the \emph{Type Theory} underlying the mathematical foundations used in \Lean.
+\item [May~$24^\text{th}$, 3.00--5.00 PM, room 312] In this first class, we will discuss logical connectors \mbox{$(\land,~\lor,~\iff)$} and basic tactics for interacting with \Lean. I will talk for 45--60 minutes, and then I will propose a series of exercises.
+\item [May~$25^\text{th}$, 3.00--5.00 PM, room 312] In this second class, we will discuss basic properties of functions (surjectivity, injectivity, linear and affine functions) and how to express these properties in \Lean, toghether with some more advanced tactics. I will talk for 45--60 minutes, and then I will propose a series of exercises.
+\item [May~$26^\text{th}$, 3.00--5.00 PM, room 312] In the third and final class, we will discuss how to introduce basic $\varepsilon/\delta$ reasoning in \Lean. I will talk for 45--60 minutes, and then I will propose a series of exercises.
+\end{description}
+%\section*{}.
+
+
+\bibliography{abstract_biblio.bib}
+\bibliographystyle{amsalpha}
+
+\end{document}
