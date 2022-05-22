@@ -1,8 +1,7 @@
 import data.real.basic
 import tactic
-import B_Functions.fae_solutions.Course
 
-open function real vilnius
+open function real
 
 namespace vilnius
 
@@ -55,9 +54,8 @@ begin
   exact nat.add_one_ne_zero a ha,
 end
 
-/-- Recall the
-`definition` is_linear (f : ℝ → ℝ) : Prop := ∀ c x y, f (c * x + y) = c * f (x) + f(y) 
--/
+-- Recall the-
+definition is_linear (f : ℝ → ℝ) : Prop := ∀ c x y, f (c * x + y) = c * f (x) + f(y) 
 
 definition is_linear' (f : ℝ → ℝ) : Prop :=
 (∀ x y, f ( x + y) = f (x) + f (y)) ∧ (∀ c x, f (c * x) = c * f (x))
@@ -93,17 +91,18 @@ begin
     rw h_2, },
 end
 
-/--Recall the
-`definition` is_affine (f : ℝ → ℝ) : Prop := ∃ a, ∀ x y, f (y) - f(x) = a * (y - x)
+--Recall the
+definition is_affine (f : ℝ → ℝ) : Prop := ∃ a, ∀ x y, f (y) - f(x) = a * (y - x)
 
-together with the
-`theorem` linear_add_cnst_of_affine (f : ℝ → ℝ) : is_affine f → (∃ a : ℝ, ∃ g : ℝ → ℝ, (f = g + (λ x, a)) ∧ is_linear g) :=
+-- together with the
+theorem linear_add_cnst_of_affine (f : ℝ → ℝ) : is_affine f → (∃ a : ℝ, ∃ g : ℝ → ℝ,
+  (f = g + (λ x, a)) ∧ is_linear g) := sorry
+-- as well as
+theorem affine_of_linear_add_cnst (f : ℝ → ℝ) : (∃ b : ℝ, ∃ g : ℝ → ℝ,
+  (f = g + (λ x, b)) ∧ is_linear g) → is_affine f := sorry
 
-and
+-- that we proved in the lesson.
 
-`theorem`affine_of_linear_add_cnst (f : ℝ → ℝ) : (∃ b : ℝ, ∃ g : ℝ → ℝ,
-  (f = g + (λ x, b)) ∧ is_linear g) → is_affine f :=
--/
 
 example (f : ℝ → ℝ) : is_affine f ↔ ∃ a : ℝ, ∃ g : ℝ → ℝ, (f = g + (λ x, a)) ∧ is_linear g := -- iff.intro (linear_add_cnst_of_affine _) (affine_of_linear_add_cnst _)
 begin
