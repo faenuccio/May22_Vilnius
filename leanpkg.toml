@@ -1,0 +1,8 @@
+[package]
+name = "Colloquium_Vilnius"
+version = "0.1"
+lean_version = "leanprover-community/lean:3.42.1"
+path = "src"
+
+[dependencies]
+mathlib = {git = "https://github.com/leanprover-community/mathlib", rev = "9b8588af1bf10f86a13e87954b9f9e363a2c084d"}
