@@ -13,8 +13,7 @@ variables {V : Type*} [normed_group V] [normed_space 𝕜 V]
 
 -- ## Example 1
 
-/- 
-The Hahn-Banach theorem about extending linear functionals to a field `𝕜 = ℝ` or `𝕜 = ℂ`: -/
+/- The Hahn-Banach theorem about extending linear functionals to a field `𝕜 = ℝ` or `𝕜 = ℂ`: -/
 
 theorem Hahn_Banach [complete_space V] (p : subspace 𝕜 V)
 (f : p →L[𝕜] 𝕜) : ∃ g : V →L[𝕜] 𝕜, (∀ x : p, g x = f x) ∧ ∥g∥ = ∥f∥ :=
@@ -84,11 +83,7 @@ end
 
 
 
-
-
-
-
--- **Example 3** --
+-- ## Example 3 --
 
 /-- To play with some topology, observe that the library contains the following
 * `definition` continuous_def {f : α → β} : continuous f ↔

@@ -23,6 +23,7 @@
 %\usepackage{tikz}
 \usepackage{amsfonts,amsmath,amssymb,amsthm,bbm}
 \usefonttheme{professionalfonts}
+\usepackage{setspace}
 \usepackage{verbatim}
 \newtheorem*{conj}{Conjecture}
 \newtheorem*{dfz}{Définition}
@@ -54,6 +55,10 @@ A theorem \textcolor{Blue}{prover}&&Un \textcolor{red}{assistant} de preuve\\
 \begin{frame}
 \includegraphics[trim=1.3cm 0 0 1cm, scale = .4]{Annals_Flattened.pdf}
 \end{frame}
+\begin{frame}
+\centering
+\includegraphics[scale = .225]{LTE_Blueprint.png}
+\end{frame}
 %%%%Frame: NOW TO LEAN!
 \begin{frame}
 \frametitle{Let's do some Lean}
@@ -61,8 +66,7 @@ A theorem \textcolor{Blue}{prover}&&Un \textcolor{red}{assistant} de preuve\\
 \end{frame}
 %%%Frame LTE
 \begin{frame}
-%\vspace{-.25cm}
-%``The development of mathematics toward greater precision has led, as is well known, to the formalization of large tracts of it, so one can prove any theorem using nothing but a few mechanical rules. The most comprehensive formal systems that have been set up hitherto are the system of \emph{Principia Mathematica} on the one hand and the Zermelo--Fraenkel axiom system of set theory on the other.
+\setstretch{1.5}
 These two systems ({\color{arancio}Principia Mathematica and Zermelo--Fraenkel}) are so comprehensive that in them all methods of proof used today in mathematics are formalized, that is, reduced to a few axioms and rules of inference. One might therefore conjecture that these axioms and rules of inference are sufficient to decide any mathematical question that can at all be formally expressed in these systems.   \only<1>{''}
 \pause
 
@@ -72,6 +76,7 @@ It will be shown below that this is not the case.''
 
 (K.~Gödel, \emph{ On formally undecidable propositions of Principia
 Mathematica and related systems}, 1931.)
+%}
 \end{frame}
 \begin{frame}
 {\Large Liquid tensor experiment}
@@ -89,9 +94,10 @@ I {\rm \textcolor{arancio}{[Peter Scholze]}} want to propose a challenge: Formal
 \]
 for $i\geq 1$.
 \end{theorem}}
+\vspace{.75cm}
 \pause
 \only<2>
-{\vspace{.75cm}
+{
 Why do I want a formalization?}
 \pause
 \only<3>
@@ -105,7 +111,7 @@ Why do I want a formalization?}
 \end{itemize}}
 \end{frame}
 \begin{frame}
-\frametitle{Liquid tensor experiment}
+\frametitle{Liquid Tensor Experiment}
 Posted\footnote{See \url{https://xenaproject.wordpress.com/2021/06/05/half-a-year-of-the-liquid-tensor-experiment-amazing-developments/}} on June 5, 2021
 \vspace{.5cm}
 

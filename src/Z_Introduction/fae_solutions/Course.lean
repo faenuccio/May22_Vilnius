@@ -28,6 +28,12 @@ The command `check` returns the Type of its input-/
 #check (1 : ℝ≥0).2 --The system has found a proof that (0 : ℝ) ≤ (1 : ℝ) 
 #check ((- 3) : ℝ≥0) --The second element cannot be constructed
 
+
+
+
+
+
+
 /-! ## Prop
 Propositions are also types: their terms are the ***proofs*** (if they exist) of the statement -/
 

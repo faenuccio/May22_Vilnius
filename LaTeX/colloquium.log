@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.1.29)  22 MAY 2022 17:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.1.29)  23 MAY 2022 13:20
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -859,7 +859,10 @@ LaTeX Font Info:    Overwriting math alphabet `\mathbbmss' in version `bold'
 (Font)                  U/bbmss/m/n --> U/bbmss/bx/n on input line 35.
 )
 (c:/texlive/2020/texmf-dist/tex/latex/beamer/beamerfontthemeprofessionalfonts.s
-ty) (c:/texlive/2020/texmf-dist/tex/latex/tools/verbatim.sty
+ty) (c:/texlive/2020/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(c:/texlive/2020/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks52
 \verbatim@line=\toks53
@@ -867,9 +870,9 @@ Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
 )
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 32.
+(hyperref)                removing `\\' on input line 33.
 
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 35
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 36
 .
 (c:/texlive/2020/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
@@ -882,22 +885,22 @@ File: l3backend-pdftex.def 2021-01-09 L3 backend support: PDF output (pdfTeX)
 (./colloquium.aux)
 \openout1 = `colloquium.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -955,7 +958,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 35.
+Package hyperref Info: Link coloring OFF on input line 36.
 
 (c:/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -968,9 +971,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count338
 )
-LaTeX Info: Redefining \ref on input line 35.
-LaTeX Info: Redefining \pageref on input line 35.
-LaTeX Info: Redefining \nameref on input line 35.
+LaTeX Info: Redefining \ref on input line 36.
+LaTeX Info: Redefining \pageref on input line 36.
+LaTeX Info: Redefining \nameref on input line 36.
 
 (./colloquium.out) (./colloquium.out)
 \@outlinefile=\write6
@@ -1001,18 +1004,18 @@ Dictionary: translator-numbers-dictionary, Language: English
 English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 35.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 36.
 
  (c:/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 35.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 36.
 
 
 (c:/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Package xypdf Info: Line width: 0.39998pt on input line 35.
+Package xypdf Info: Line width: 0.39998pt on input line 36.
 Configuring pdfsync
 \PDFSYNC@ut=\write7
 \openout7 = `colloquium.pdfsync'.
@@ -1035,19 +1038,19 @@ Configuring pdfsync
 <union_jack.png, id=64, 339.2675pt x 203.76125pt>
 File: union_jack.png Graphic file (type png)
 <use union_jack.png>
-Package pdftex.def Info: union_jack.png  used on input line 50.
+Package pdftex.def Info: union_jack.png  used on input line 51.
 (pdftex.def)             Requested size: 135.70459pt x 81.50305pt.
 <french_flag.png, id=65, 281.05pt x 187.70125pt>
 File: french_flag.png Graphic file (type png)
 <use french_flag.png>
-Package pdftex.def Info: french_flag.png  used on input line 50.
+Package pdftex.def Info: french_flag.png  used on input line 51.
 (pdftex.def)             Requested size: 126.47131pt x 84.46478pt.
 
-Overfull \hbox (2.88606pt too wide) in paragraph at lines 50--50
+Overfull \hbox (2.88606pt too wide) in paragraph at lines 51--51
 [][][][]  
  []
 
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 50
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 51
 .
 (c:/texlive/2020/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
@@ -1057,10 +1060,10 @@ File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 <Hahn_Banach.png, id=96, 1397.22pt x 666.99188pt>
 File: Hahn_Banach.png Graphic file (type png)
 <use Hahn_Banach.png>
-Package pdftex.def Info: Hahn_Banach.png  used on input line 53.
+Package pdftex.def Info: Hahn_Banach.png  used on input line 54.
 (pdftex.def)             Requested size: 380.37181pt x 198.20377pt.
 
-Overfull \hbox (73.08194pt too wide) in paragraph at lines 53--53
+Overfull \hbox (73.08194pt too wide) in paragraph at lines 54--54
 [][][][]  
  []
 
@@ -1073,78 +1076,91 @@ d PDF version <1.7>, but at most version <1.5> allowed
 <Annals_Flattened.pdf, id=125, 845.1575pt x 597.23125pt>
 File: Annals_Flattened.pdf Graphic file (type pdf)
 <use Annals_Flattened.pdf>
-Package pdftex.def Info: Annals_Flattened.pdf  used on input line 56.
+Package pdftex.def Info: Annals_Flattened.pdf  used on input line 57.
 (pdftex.def)             Requested size: 323.26181pt x 227.50737pt.
 
-Overfull \hbox (15.97194pt too wide) in paragraph at lines 56--56
+Overfull \hbox (15.97194pt too wide) in paragraph at lines 57--57
 [][][][]  
  []
 
 [4
 
  <./Annals_Flattened.pdf>]
-<vscode_logo.png, id=179, 770.88pt x 770.88pt>
+<LTE_Blueprint.png, id=179, 1435.61343pt x 663.22781pt>
+File: LTE_Blueprint.png Graphic file (type png)
+<use LTE_Blueprint.png>
+Package pdftex.def Info: LTE_Blueprint.png  used on input line 61.
+(pdftex.def)             Requested size: 323.021pt x 149.22993pt.
+
+Overfull \hbox (15.73112pt too wide) in paragraph at lines 61--61
+ [][][][] 
+ []
+
+[5
+
+ <./LTE_Blueprint.png>]
+<vscode_logo.png, id=207, 770.88pt x 770.88pt>
 File: vscode_logo.png Graphic file (type png)
 <use vscode_logo.png>
-Package pdftex.def Info: vscode_logo.png  used on input line 61.
+Package pdftex.def Info: vscode_logo.png  used on input line 66.
 (pdftex.def)             Requested size: 115.627pt x 115.627pt.
-<lean_logo.png, id=180, 301.125pt x 150.5625pt>
+<lean_logo.png, id=208, 301.125pt x 150.5625pt>
 File: lean_logo.png Graphic file (type png)
 <use lean_logo.png>
-Package pdftex.def Info: lean_logo.png  used on input line 61.
+Package pdftex.def Info: lean_logo.png  used on input line 66.
 (pdftex.def)             Requested size: 79.4304pt x 24.7775pt.
- [5
+ [6
 
  <./vscode_logo.png> <./lean_logo.png>]
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 75.
- [6
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 80.
+ [7
 
 ]
-[7
+[8
 
 ]
-LaTeX Font Info:    Trying to load font information for T1+ppl on input line 10
-6.
+LaTeX Font Info:    Trying to load font information for T1+ppl on input line 11
+2.
  (c:/texlive/2020/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
-) [8
-
-] [9
+) [9
 
 ] [10
 
+] [11
+
 ]
-Overfull \hbox (9.21033pt too wide) in paragraph at lines 118--118
+Overfull \hbox (9.21033pt too wide) in paragraph at lines 124--124
 \T1/pcr/m/n/8 half-[]a-[]year-[]of-[]the-[]liquid-[]tensor-[]experiment-[]amazi
 ng-[]developments/$[]|  
  []
 
 File: vscode_logo.png Graphic file (type png)
 <use vscode_logo.png>
-Package pdftex.def Info: vscode_logo.png  used on input line 118.
+Package pdftex.def Info: vscode_logo.png  used on input line 124.
 (pdftex.def)             Requested size: 19.26724pt x 12.86694pt.
 File: lean_logo.png Graphic file (type png)
 <use lean_logo.png>
-Package pdftex.def Info: lean_logo.png  used on input line 118.
-(pdftex.def)             Requested size: 15.88704pt x -3.29596pt.
-[11
-
-]
-Overfull \hbox (9.21033pt too wide) in paragraph at lines 118--118
-\T1/pcr/m/n/8 half-[]a-[]year-[]of-[]the-[]liquid-[]tensor-[]experiment-[]amazi
-ng-[]developments/$[]|  
- []
-
-File: vscode_logo.png Graphic file (type png)
-<use vscode_logo.png>
-Package pdftex.def Info: vscode_logo.png  used on input line 118.
-(pdftex.def)             Requested size: 19.26724pt x 12.86694pt.
-File: lean_logo.png Graphic file (type png)
-<use lean_logo.png>
-Package pdftex.def Info: lean_logo.png  used on input line 118.
+Package pdftex.def Info: lean_logo.png  used on input line 124.
 (pdftex.def)             Requested size: 15.88704pt x -3.29596pt.
 [12
+
+]
+Overfull \hbox (9.21033pt too wide) in paragraph at lines 124--124
+\T1/pcr/m/n/8 half-[]a-[]year-[]of-[]the-[]liquid-[]tensor-[]experiment-[]amazi
+ng-[]developments/$[]|  
+ []
+
+File: vscode_logo.png Graphic file (type png)
+<use vscode_logo.png>
+Package pdftex.def Info: vscode_logo.png  used on input line 124.
+(pdftex.def)             Requested size: 19.26724pt x 12.86694pt.
+File: lean_logo.png Graphic file (type png)
+<use lean_logo.png>
+Package pdftex.def Info: lean_logo.png  used on input line 124.
+(pdftex.def)             Requested size: 15.88704pt x -3.29596pt.
+[13
 
 ]
 \tf@nav=\write8
@@ -1161,11 +1177,11 @@ Package rerunfilecheck Info: File `colloquium.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 20714 strings out of 479304
- 382065 string characters out of 5871219
- 736023 words of memory out of 5000000
- 37330 multiletter control sequences out of 15000+600000
- 435108 words of font info for 75 fonts, out of 8000000 for 9000
+ 20757 strings out of 479304
+ 382838 string characters out of 5871219
+ 736287 words of memory out of 5000000
+ 37369 multiletter control sequences out of 15000+600000
+ 432501 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  131i,42n,132p,3253b,858s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2020/texm
@@ -1179,10 +1195,10 @@ c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive
 /fonts/type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/ur
 w/helvetic/uhvro8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/palatino/upl
 r8a.pfb>
-Output written on colloquium.pdf (12 pages, 1231949 bytes).
+Output written on colloquium.pdf (13 pages, 1424125 bytes).
 PDF statistics:
- 476 PDF objects out of 1000 (max. 8388607)
- 399 compressed objects within 4 object streams
- 25 named destinations out of 1000 (max. 500000)
- 211 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 502 PDF objects out of 1000 (max. 8388607)
+ 417 compressed objects within 5 object streams
+ 27 named destinations out of 1000 (max. 500000)
+ 216 words of extra memory for PDF output out of 10000 (max. 10000000)
 
