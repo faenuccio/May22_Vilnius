@@ -38,7 +38,7 @@ definition is_linear (f : ℝ → ℝ) : Prop := ∀ c x y, f (c * x + y) = c * 
 /-- ## The tactics have and rewrite (rw)
 * have (h) : It allows to introduce a claim, called h. After, you need to prove it. This states the (to be proven) existence of a term whose type is the RHS.
 There exists also
-* have (h) := This creates a term.
+* have (h) := This gives the name h to the term on the right.
 -/
 
 
