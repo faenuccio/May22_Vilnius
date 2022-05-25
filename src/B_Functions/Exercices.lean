@@ -36,13 +36,18 @@ begin
   sorry,
 end
 
-example : ¬ surjective A := --λ h, nat.add_one_ne_zero (h 0).some (h 0).some_spec
+example : ¬ surjective A := 
 begin
   sorry,
 end
 
 -- Recall the-
 definition is_linear (f : ℝ → ℝ) : Prop := ∀ c x y, f (c * x + y) = c * f (x) + f(y) 
+
+--as well as
+theorem linear_at_0 (f : ℝ → ℝ) (H : is_linear f) : f 0 = 0 := sorry
+
+-- And now a new
 
 definition is_linear' (f : ℝ → ℝ) : Prop :=
 (∀ x y, f ( x + y) = f (x) + f (y)) ∧ (∀ c x, f (c * x) = c * f (x))

@@ -35,10 +35,22 @@ end
 
 definition is_linear (f : ℝ → ℝ) : Prop := ∀ c x y, f (c * x + y) = c * f (x) + f(y) 
 
+/-- ## The tactics have and rewrite (rw)
+* have (h) : It allows to introduce a claim, called h. After, you need to prove it. This states the (to be proven) existence of a term whose type is the RHS.
+There exists also
+* have (h) := This creates a term.
+-/
+
+
 theorem linear_at_0 (f : ℝ → ℝ) (H : is_linear f) : f 0 = 0 :=
 begin
   sorry,
 end
+
+/-- The tactic
+* `use a` specializes an existential quantifier at x
+* `ext`: the "extensionality rule": two functions f,  g are equal if and only if for all x, f x = g x
+-/
 
 theorem linear_explicit (f : ℝ → ℝ) (H : is_linear f) : ∃ a, f = λ x, a * x :=
 begin
@@ -55,7 +67,7 @@ end
 theorem affine_of_linear_add_cnst (f : ℝ → ℝ) : (∃ b : ℝ, ∃ g : ℝ → ℝ,
   (f = g + (λ x, b)) ∧ is_linear g) → is_affine f :=
 begin
-  sorry,
+ sorry,
 end
 
 end vilnius

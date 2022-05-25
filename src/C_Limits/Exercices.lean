@@ -40,12 +40,26 @@ theorem is_limit_add {a b : ℕ → ℝ} {l m : ℝ}
   (h1 : is_limit a l) (h2 : is_limit b m) :
   is_limit (a + b) (l + m) := sorry
 
---as well as the 
-
-theorem is_limit_mul_const_left {a : ℕ → ℝ} {l c : ℝ} (h : is_limit a l) :
-  is_limit (λ n, c * (a n)) (c * l) := sorry
 
 -- And now, over to you!
+
+-- A hint for starting:
+-- It might be worth dealing with `c = 0` as a special case. You
+-- can start with 
+-- `by_cases hc : c = 0`
+
+theorem is_limit_mul_const_left {a : ℕ → ℝ} {l c : ℝ} (h : is_limit a l) :
+  is_limit (λ n, c * (a n)) (c * l) :=
+begin
+  sorry,
+end
+
+theorem sandwich (a b c : ℕ → ℝ)
+  (l : ℝ) (ha : is_limit a l) (hc : is_limit c l) 
+  (hab : ∀ n, a n ≤ b n) (hbc : ∀ n, b n ≤ c n) : is_limit b l :=
+begin
+  sorry,
+end
 
 example (a : ℕ → ℝ) (b : ℕ → ℝ) (α β c d : ℝ) 
     (ha : is_limit a α) (hb : is_limit b β) : 
